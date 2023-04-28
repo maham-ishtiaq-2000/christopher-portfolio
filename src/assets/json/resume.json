@@ -1,0 +1,353 @@
+[
+  {
+    "experience": [
+      {
+        "title": "Sr. Front End Developer",
+        "company": "Cognizant",
+        "date": "03/2021 – 12/2022",
+        "desc": "Engineered custom solutions for diverse range of assignments and technologies by developing onto existing platforms; contributed towards 6+ projects on-time with varying stakeholder requirements and  Agile methodologies, meeting 100% of deliverables.",
+        "points": [
+          "Engineered Angular solutions for large scale client projects within Agile methodology, providing technical leadership and collaborating with distributed development teams across different time zones. Clients included:",
+          "Contributed to documentation, testing, and styling, outside of primary objectives and my individual contributor requirements.",
+          "Streamlined technical documentation process by developing a standardized format and creating 50+ technical documents; reduced documentation time by 30% and improved team efficiency."
+        ],
+        "minipoints": [
+          "Banking: M&T Bank, PNC, Wells Fargo.",
+          "Healthcare: Kaiser Permanente, Cigna, Anthem.",
+          "Insurance: Pacific Specialty Insurance."
+        ],
+        "technologies": [
+          {
+            "name": "HTML5",
+            "link": "https://www.w3.org/TR/html5/"
+          },
+          {
+            "name": "SCSS",
+            "link": "https://sass-lang.com/"
+          },
+          {
+            "name": "Angular 5-13",
+            "link": "https://angular.io/"
+          },
+          {
+            "name": "ES5",
+            "link": "https://www.ecma-international.org/ecma-262/5.1/"
+          },
+          {
+            "name": "ES6",
+            "link": "https://www.ecma-international.org/ecma-262/6.0/"
+          },
+          {
+            "name": "RXJS",
+            "link": "https://rxjs-dev.firebaseapp.com/"
+          },
+          {
+            "name": "backbone.js",
+            "link": "https://backbonejs.org/"
+          },
+          {
+            "name": "Swagger",
+            "link": "https://swagger.io/"
+          },
+          {
+            "name": "NPM",
+            "link": "https://www.npmjs.com/"
+          },
+          {
+            "name": "Git",
+            "link": "https://git-scm.com/"
+          },
+          {
+            "name": "VSCode",
+            "link": "https://code.visualstudio.com/"
+          },
+          {
+            "name": "Cypress",
+            "link": "https://www.cypress.io/"
+          },
+          {
+            "name": "Jenkins",
+            "link": "https://www.jenkins.io/"
+          },
+          {
+            "name": ".NET",
+            "link": "https://dotnet.microsoft.com/"
+          }
+        ]
+      },
+      {
+        "title": "Software Engineer (Contract)",
+        "company": "Vaco LLC",
+        "date": "11/2020 – 03/2021",
+        "desc": "Assisted in contributing to the development of a new corporate CRM tool for Google Pay using Angular; reduced customer support issues by 25% and increased sales by 17%.",
+        "points": [
+          "Worked with a small team as individual contributor to output features from high priority tickets within individual stakeholders.",
+          "Developed organization documents within this product to help smooth out onboarding. Feedback for smoother ticket creation with necessary information for less back and forth, etc."
+        ],
+        "technologies": [
+          {
+            "name": "HTML5",
+            "link": "https://www.w3.org/TR/html5/"
+          },
+          {
+            "name": "SCSS",
+            "link": "https://sass-lang.com/"
+          },
+          {
+            "name": "Angular 7",
+            "link": "https://angular.io/"
+          },
+          {
+            "name": "ES6",
+            "link": "https://www.ecma-international.org/ecma-262/6.0/"
+          },
+          {
+            "name": "TypeScript",
+            "link": "https://www.typescriptlang.org/"
+          },
+          {
+            "name": "Jasmine",
+            "link": "https://jasmine.github.io/"
+          },
+          {
+            "name": "Prismic",
+            "link": "https://prismic.io/"
+          }
+        ]
+      },
+      {
+        "title": "Lead Front End Developer",
+        "company": "IPG - Media Brands",
+        "date": "12/2018 – 05/2020",
+        "desc": "Developed and architected Out of Home project within Unity, a corporate platform, for advertisers to purchase and place outdoor and transit ads; led team of 5 front-end to finish custom solution within 8 months.",
+        "points": [
+          "Coached an offshore team to deliver high quality work, set strategy and delegate during late hours to fulfill sprint objectives.",
+          "Had highest scrum velocity out of corporate software ladder, averaging above 35% per sprint."
+        ],
+        "technologies": [
+          {
+            "name": "HTML5",
+            "link": "https://www.w3.org/TR/html5/"
+          },
+          {
+            "name": "SCSS",
+            "link": "https://sass-lang.com/"
+          },
+          {
+            "name": "Angular 5 SPA",
+            "link": "https://angular.io/"
+          },
+          {
+            "name": "ES5",
+            "link": "https://www.ecma-international.org/ecma-262/5.1/"
+          },
+          {
+            "name": "ES6",
+            "link": "https://www.ecma-international.org/ecma-262/6.0/"
+          },
+          {
+            "name": "Swagger API",
+            "link": "https://swagger.io/"
+          },
+          {
+            "name": "NPM",
+            "link": "https://www.npmjs.com/"
+          },
+          {
+            "name": "Git",
+            "link": "https://git-scm.com/"
+          },
+          {
+            "name": "VSCode",
+            "link": "https://code.visualstudio.com/"
+          },
+          {
+            "name": "Cypress",
+            "link": "https://www.cypress.io/"
+          },
+          {
+            "name": "Jenkins",
+            "link": "https://www.jenkins.io/"
+          },
+          {
+            "name": "Google Maps API",
+            "link": "https://developers.google.com/maps/documentation/javascript/overview"
+          }
+        ]
+      },
+      {
+        "title": "Lead Angular 2 Developer",
+        "company": "Phenomenex",
+        "date": "05/2017 – 12/2018",
+        "desc": "Developed next-generation software for Phenomenex's internal systems and external websites using the latest FED technologies; built fast and reactive models for modern and older viewports, resulting in a 50% reduction in page load time.",
+        "points": [
+          "Led the front-end team to solve critical tasks for modern and effective development within different departments; collaborated with cross-functional teams to reduce the number of bugs by 80%. Improve workflows of existing data entry systems by 90%.",
+          "Implemented DevOps protocol for continuous deployment and FED workflow architecture for fast and intuitive modeling; streamlined the development process and reduced the time-to-market by 100%.",
+          "Built SCSS BEM aesthetic skeletons for encapsulating data structures; promoted the use of best practices, resulting in a 40% reduction in CSS code duplication."
+        ],
+        "technologies": [
+          {
+            "name": "HTML5",
+            "link": "https://www.w3.org/TR/html5/"
+          },
+          {
+            "name": "SCSS",
+            "link": "https://sass-lang.com/"
+          },
+          {
+            "name": "Angular 2-5",
+            "link": "https://angular.io/"
+          },
+          {
+            "name": "ES6",
+            "link": "https://www.ecma-international.org/ecma-262/6.0/"
+          },
+          {
+            "name": "Express",
+            "link": "https://expressjs.com/"
+          },
+          {
+            "name": "Node.js",
+            "link": "https://nodejs.org/"
+          },
+          {
+            "name": "Swagger API",
+            "link": "https://swagger.io/"
+          },
+          {
+            "name": "YAML",
+            "link": "https://yaml.org/"
+          },
+          {
+            "name": "NPM",
+            "link": "https://www.npmjs.com/"
+          },
+          {
+            "name": "Git",
+            "link": "https://git-scm.com/"
+          },
+          {
+            "name": "Photoshop",
+            "link": "https://www.adobe.com/products/photoshop.html"
+          },
+          {
+            "name": "VSTS",
+            "link": "https://azure.microsoft.com/en-us/services/devops/"
+          },
+          {
+            "name": "VS",
+            "link": "https://visualstudio.microsoft.com/"
+          }
+        ]
+      },
+      {
+        "title": "Front End Developer (Contract)",
+        "company": "Mattel",
+        "date": "10/2016 – 05/2017",
+        "desc": "Worked on optimizing the various brands of Mattel to help increase revenue and improve customer experience. Using best practices to overlay visual improvements to current page design within their current workflow.",
+        "points": [
+          "Conducted A/B and Multivariate tests for Hot Wheels, Barbie, Fisher Price, and Mattel websites, resulting in a 20% increase in page views and 10% increase in average order value.",
+          "Delivered weekly test results to different departments and communicated recommendations for future projects; collaborated with Product and Design teams to incorporate findings into website redesign."
+        ],
+        "technologies": [
+          {
+            "name": "HTML5",
+            "link": "https://www.w3.org/TR/html5/"
+          },
+          {
+            "name": "CSS3",
+            "link": "https://www.w3.org/TR/css-2018-1/"
+          },
+          {
+            "name": "jQuery",
+            "link": "https://jquery.com/"
+          },
+          {
+            "name": "Websphere",
+            "link": "https://www.ibm.com/products/websphere"
+          },
+          {
+            "name": "Node.js",
+            "link": "https://nodejs.org/en/"
+          },
+          {
+            "name": "Tortoise SVN",
+            "link": "https://tortoisesvn.net/"
+          },
+          {
+            "name": "NPM",
+            "link": "https://www.npmjs.com/"
+          },
+          {
+            "name": "Gulp",
+            "link": "https://gulpjs.com/"
+          },
+          {
+            "name": "SCSS",
+            "link": "https://sass-lang.com/"
+          },
+          {
+            "name": "Image Compression API",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/API/Image_Compression_API"
+          },
+          {
+            "name": "Git",
+            "link": "https://git-scm.com/"
+          }
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "title": "Angular",
+        "years": "4.5 yrs",
+        "progress": 80
+      },
+      {
+        "title": "WordPress",
+        "years": "3 yrs",
+        "progress": 55
+      },
+      {
+        "title": "TypeScript",
+        "years": "4.5 yrs",
+        "progress": 60
+      },
+      {
+        "title": "JavaScript",
+        "years": "3 yrs",
+        "progress": 70
+      },
+      {
+        "title": "SCSS",
+        "years": "4.5 yrs",
+        "progress": 90
+      },
+      {
+        "title": "Cypress",
+        "years": "1.5 yrs",
+        "progress": 40
+      },
+      {
+        "title": "Jasmine",
+        "years": "3 yrs",
+        "progress": 60
+      },
+      {
+        "title": "RxJS",
+        "years": "2.75 yrs",
+        "progress": 50
+      },
+      {
+        "title": "Google Cloud Services",
+        "years": "2 yrs",
+        "progress": 40
+      },
+      {
+        "title": "Azure Web Services",
+        "years": "1 yr",
+        "progress": 30
+      }
+    ]
+  }
+]

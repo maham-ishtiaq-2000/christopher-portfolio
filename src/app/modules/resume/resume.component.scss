@@ -1,0 +1,35 @@
+.item {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #656565;
+    border-radius: 50%;
+    left: -6px;
+    top: 0px;
+    transition: .3s;
+  }
+  &::after {
+    content: '';
+    background: #333333;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: -1;
+  }
+
+  &:hover {
+    &::before {
+      background: #eee;
+    }
+
+    h3 {
+      color: #eee;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.rays {
+	box-shadow:
+		0 0 0 20px hsla(0, 0%, 100%, 0.502),
+		0 0 0 40px hsla(0, 0%, 50%, 0.251),
+		0 0 0 60px hsla(0, 0%, 50%, 0.125),
+		0 0 0 80px hsla(0, 0%, 50%, 0.063),
+		0 0 0 100px hsla(0, 0%, 50%, 0),
+		0 0 40px 100px hsla(0, 0%, 50%, 0.063);
+	animation:
+		sunrise 2s infinite linear forwards,
+		rays 2s 2s infinite linear;
+}
+
+.sun, .moon {
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.sun {
+	background-color: hsl(0, 0%, 100%);
+}
+
+.moon {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 10px #fff;
+}
+
+
+.ground-overflow {
+	height: 150px;
+	position: absolute;
+	overflow: hidden;
+	bottom: 0px;
+	left: -25%;
+	right: -25%;
+	z-index: 10;
+
+	.ground {
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+	}
+}

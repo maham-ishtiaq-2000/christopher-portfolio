@@ -1,0 +1,73 @@
+:host {
+  z-index: 11;
+}
+
+
+#back-top {
+  position: absolute; 
+  right: -16px; 
+  bottom: 20px; 
+  overflow: hidden; 
+  width: 40px; 
+  height: 60px; 
+  cursor: pointer;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+
+  &:before, 
+  &:after {
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    top: 50%;
+    margin-top: -1px; 
+    width: 20px; 
+    height: 2px; 
+    background-color: #fff;
+    -webkit-transform-origin: 21px 0;
+    -moz-transform-origin: 21px 0;
+    -ms-transform-origin: 21px 0;
+    transform-origin: 21px 0;
+    transition: all 0.25s ease-in-out;
+  }
+
+  &:after {
+    left: 20px;
+    -webkit-transform-origin: 3px 0;
+    -moz-transform-origin: 3px 0;
+    -ms-transform-origin: 3px 0;
+    transform-origin: 3px 0;
+  }
+
+  &:hover:before { 
+    -webkit-transform:translate(2px,-15px) rotate(-60deg);
+    -moz-transform:translate(2px,-15px) rotate(-60deg);
+    -ms-transform:translate(2px,-15px) rotate(-60deg);
+    transform:translate(2px,-15px) rotate(-60deg);
+  }
+  &:hover:after {
+    -webkit-transform:translate(2px,-12px) rotate(60deg);
+    -moz-transform:translate(2px,-12px) rotate(60deg);
+    -ms-transform:translate(2px,-12px) rotate(60deg);
+    transform:translate(2px,-12px) rotate(60deg);
+  }
+
+  &.backtop-shown {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+.back-top-wrap {
+  position: fixed;
+  z-index: 999;
+  bottom: 0px;
+  left: auto;
+  right: 82px;
+  height: 0;
+  width: auto;
+}

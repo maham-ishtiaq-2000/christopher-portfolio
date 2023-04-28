@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "attributes": [
+      "Digital Product",
+      "Web App",
+      "Mobile"
+    ],
+    "proposition": "consumer, information, data",
+    "title": "Grceri",
+    "image": "./assets/jpg/grceri-bg.jpg",
+    "logo": "./assets/png/grceri.png",
+    "code": "https://github.com/chriseugenerodriguez/grceri",
+    "desc": "Online grocery database comparing availability and pricing.",
+    "preview": "",
+    "brief": "./grceri"
+  },
+  {
+    "id": 3,
+    "attributes": [
+      "Product",
+      "Web App"
+    ],
+    "title": "Weed Freshener",
+    "proposition": "consumer, product",
+    "logo": "./assets/png/weed-freshener.png",
+    "image": "./assets/jpg/wf-bg.jpg",
+    "code": "https://github.com/chriseugenerodriguez/weed-freshener",
+    "desc": "Online retail selling scented marijuana products.",
+    "class": "",
+    "preview": "",
+    "brief": "./weed-freshender"
+  },
+  {
+    "id": 4,
+    "attributes": [
+      "Digital Product",
+      "Web App"
+    ],
+    "title": "LLC Cheap",
+    "proposition": "consumer, entity, business, personal",
+    "logo": "./assets/png/llc-cheap.png",
+    "image": "./assets/jpg/llc-bg.jpg",
+    "code": "https://github.com/chriseugenerodriguez/llc-cheap",
+    "desc": "Third party legal entity creation, provider within USA.",
+    "preview": "",
+    "brief": "./llc-cheap"
+  },
+  {
+    "id": 5,
+    "attributes": [
+      "Digital Product",
+      "Web App"
+    ],
+    "proposition": "consumer, token",
+    "title": "Inu Cash",
+    "logo": "./assets/png/inu-cash.png",
+    "image": "./assets/jpg/inu-bg.jpg",
+    "code": "https://github.com/chriseugenerodriguez/inu-cash",
+    "desc": "Tokenized ERC20 and swap network platform within Etherium network.",
+    "preview": "",
+    "brief": "./inu-cash"
+  },
+  {
+    "id": 6,
+    "attributes": [
+      "Digital Product",
+      "Web App"
+    ],
+    "proposition": "consumer, templates",
+    "title": "Premium WD",
+    "logo": "./assets/png/premium-wd.png",
+    "image": "./assets/jpg/wd-bg.jpg",
+    "code": "https://github.com/chriseugenerodriguez/premium-wd",
+    "desc": "Direct to consumer wordpress templates across popular categories.",
+    "preview": "",
+    "brief": "./premiumwd"
+  },
+  {
+    "id": 8,
+    "attributes": [
+      "Product",
+      "Web App"
+    ],
+    "proposition": "consumer, product",
+    "title": "Glow Menu",
+    "logo": "./assets/png/glow-menu.png",
+    "image": "./assets/jpg/gm-bg.jpg",
+    "code": "https://github.com/chriseugenerodriguez/glowmenu",
+    "desc": "Glow in the dark menu template customizing and creation.",
+    "preview": "",
+    "brief": "./glow-menu"
+  }
+]

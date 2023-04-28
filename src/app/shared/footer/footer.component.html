@@ -1,0 +1,15 @@
+
+<div class="mx-auto flex items-center justify-center text-white p-8 w-2/3 mt-40 lg:mt-20">
+  <a routerLink="/" class="hidden lg:block">R.</a>
+  <span class="ml-12 mr-12 hidden lg:block">|</span>
+  <div class="flex gap-3 justify-between sm:w-96 md:w-82 text-center">
+    <a href="https://www.linkedin.com/in/christophererodriguez/" class="hover:underline underline-offset-2" target="_blank">LinkedIn</a>
+    <a href="https://github.com/chriseugenerodriguez" class="hover:underline underline-offset-2" target="_blank">GitHub</a>
+    <a href="https://twitter.com/chriseugenerodr" class="hover:underline underline-offset-2" target="_blank">Twitter</a>
+    <a href="https://discord.gg/zB2QwApsSa" class="hover:underline underline-offset-2" target="_blank">Discord</a>
+  </div>
+</div>
+
+<div class="back-top-wrap hidden md:flex transition-opacity" [ngClass]="{'opacity-0': !showButton, 'opacity-100': showButton}">
+  <div id="back-top" class="backtop-shown transition" (click)="scrollToTop()"></div>
+</div>

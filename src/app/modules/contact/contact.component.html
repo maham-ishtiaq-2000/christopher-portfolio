@@ -1,0 +1,97 @@
+<div id="map" class="h-96 mb-7 -top-20 lg:-top-10 relative"></div>
+
+<div class="flex max-w-screen-2xl mx-0 lg:mx-auto px-10 md:px-12 flex-col lg:flex-row">
+  <div class="w-full pb-20 lg:w-1/2 lg:pr-20 lg:pb-0">
+    <h1 class="text-4xl font-semibold lg:text-7xl lg:font-bold text-gray-50 mb-6 lg:mb-8">Contact</h1>
+    <p class="text-gray-50 mb-4">Please feel free to use my contact form to get in touch with project requests, sponsor inquiries, and or donate questions.</p>
+    <p class="text-gray-50">No support questions, job offers, questionnaires, etc.</p>
+  </div>
+  <div class="w-full lg:w-1/2">
+    <form *ngIf="!isSubmitted" class="md:col-span-8 text-white" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+      <div class="flex flex-wrap -mx-3 mb-8">
+        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+          <label class="block uppercase tracking-wide text-gray-100 text-xs font-bold mb-2" for="grid-first-name">
+            First Name
+          </label>
+          <input 
+            [ngClass]="{'border-red-500': contactForm.get('firstName')?.invalid && contactForm.get('firstName')?.touched}"
+            formControlName="firstName"
+            class="appearance-none block w-full bg-[#212129] text-white rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white  focus:text-black"
+            id="grid-first-name" 
+            type="text" 
+            placeholder="Jane">
+          <ng-container *ngIf="contactForm.get('firstName')?.invalid && contactForm.get('firstName')?.touched">
+            <p class="text-red-500 text-xs italic mt-2">Please provide a first name.</p>
+          </ng-container>
+        </div>
+        <div class="w-full md:w-1/2 px-3">
+          <label class="block uppercase tracking-wide text-gray-100 text-xs font-bold mb-2" for="grid-last-name">
+            Last Name
+          </label>
+          <input 
+            [ngClass]="{'border-red-500': contactForm.get('lastName')?.invalid && contactForm.get('lastName')?.touched}"
+            formControlName="lastName"
+            class="appearance-none block w-full bg-[#212129] text-white rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white  focus:text-black"
+            id="grid-last-name" 
+            type="text" 
+            placeholder="Doe">
+          <ng-container *ngIf="contactForm.get('lastName')?.invalid && contactForm.get('lastName')?.touched">
+            <p class="text-red-500 text-xs italic mt-2">Please provide a last name.</p>
+          </ng-container>
+        </div>
+      </div>
+      <div class="flex flex-wrap -mx-3 mb-8">
+        <div class="w-full px-3">
+          <label class="block uppercase tracking-wide text-gray-100 text-xs font-bold mb-2" for="grid-email">
+            Email Address
+          </label>
+          <input 
+            [ngClass]="{'border-red-500': contactForm.get('email')?.invalid && contactForm.get('email')?.touched}"
+            formControlName="email"
+            class="appearance-none block w-full bg-[#212129] text-white rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white  focus:text-black"
+            id="grid-email" 
+            type="email" 
+            placeholder="********@*****.**">
+          <ng-container *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched">
+            <p class="text-red-500 text-xs italic mt-2">Please a correct email address ex. example@domain.ext.</p>
+          </ng-container>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap -mx-3 mb-8">
+        <div class="w-full px-3">
+          <label class="block uppercase tracking-wide text-gray-100 text-xs font-bold mb-2" for="grid-message">
+            Your Message
+          </label>
+          <textarea 
+            [ngClass]="{'border-red-500': contactForm.get('message')?.invalid && contactForm.get('message')?.touched}"
+            formControlName="message"
+            class="appearance-none block w-full bg-[#212129] text-white rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white  focus:text-black"
+            id="grid-message" rows="10" placeholder="Type your message here"></textarea>
+          <ng-container *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched">
+            <p class="text-red-500 text-xs italic mt-2">Length of message should be 20 characters.</p>
+          </ng-container>
+        </div>
+      </div>
+
+      <div class="flex justify-between w-full items-start sm:flex-row flex-col">
+        <ngx-recaptcha2 
+          class="sm:mb-0 mb-6" 
+          [siteKey]="environment.google.captcha"
+          (resolved)="resolved($event)">
+        </ngx-recaptcha2>
+        <button
+          [disabled]="!contactForm.valid"
+          [ngClass]="{'disabled:opacity-75': !contactForm.valid}"
+          class="shadow border rounded border-white focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6"
+          type="submit">
+          Send Message
+        </button>
+      </div>
+    </form>
+
+    <div *ngIf="isSubmitted" class="bg-gray-50 text-gray-500 p-4 rounded mt-4">
+      Your message has been sent successfully!
+    </div>
+  </div>
+</div>

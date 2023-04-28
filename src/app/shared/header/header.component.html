@@ -1,0 +1,32 @@
+<header class="max-w-screen-2xl lg:mx-auto mb-20 lg:mb-0">
+  <nav class="flex items-center justify-between p-10 md:p-12" aria-label="Global">
+    <div class="flex lg:flex-1">
+      <a routerLink="/" class="-m-1.5 p-1.5 text-4xl font-thin font-serif text-white antialiased ">
+        <span class="sr-only">Chris Rodriguez Portfolio</span>
+        R.
+      </a>
+    </div>
+    <div class="hidden sm:flex sm:gap-x-12 text-xl font-light text-gray-200">
+      <a routerLink="projects" routerLinkActive="underline text-white" class="hover:text-white hover:underline underline-offset-4">Projects</a>
+      <a routerLink="resume" routerLinkActive="underline text-white" class="hover:text-white hover:underline underline-offset-4">Resume</a>
+      <a routerLink="donate" routerLinkActive="underline text-white" class="hover:text-white hover:underline underline-offset-4">Donate</a>
+      <!-- <a routerLink="sponsors" routerLinkActive="underline text-white" class="hover:text-white hover:underline underline-offset-4">Sponsors</a> -->
+    </div>
+    <div class="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-6 text-lg text-gray-200 animation">
+      <a class="hover:text-white" routerLink="contact" routerLinkActive="text-white" #active="routerLinkActive">
+        <i [ngClass]="{'bi-envelope': !active.isActive, 'bi-envelope-fill': active.isActive}"></i>
+      </a>
+    </div>
+    <i class="flex sm:hidden bi bi-list text-white cursor-pointer text-3xl" (click)="toggleMenu()"></i>
+  </nav>
+</header>
+
+<nav id="menu" class="fixed inset-0 z-50 bg-black bg-opacity-50 flex justify-center items-center" *ngIf="isMenuOpen">
+  <i class="bi bi-x text-5xl absolute top-8 right-8 text-white" (click)="toggleMenu()"></i>
+  <ul class="text-white text-2xl font-serif uppercase tracking-widest space-y-10 text-center">
+    <li><a routerLink="projects" routerLinkActive="underline" class="hover:underline" (click)="closeMenu()">Projects</a></li>
+    <li><a routerLink="resume" routerLinkActive="underline" class="hover:underline" (click)="closeMenu()">Resume</a></li>
+    <li><a routerLink="donate" routerLinkActive="underline" class="hover:underline" (click)="closeMenu()">Donate</a></li>
+    <li><a routerLink="contact" routerLinkActive="underline" class="hover:underline" (click)="closeMenu()">Contact</a></li>
+  </ul>
+</nav>
